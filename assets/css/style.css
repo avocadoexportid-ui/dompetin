@@ -1,0 +1,67 @@
+:root {
+  --emerald: #10B981;
+  --coral: #F87171;
+  --indigo: #6366F1;
+  --bg: #F9FAFB;
+  --card: #FFFFFF;
+  --text: #1F2937;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--bg);
+  font-family: "Poppins", sans-serif;
+  color: var(--text);
+}
+
+.container {
+  padding: 20px;
+}
+
+.card {
+  background: var(--card);
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 16px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.btn {
+  display: inline-block;
+  border: none;
+  border-radius: 12px;
+  padding: 14px 18px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.primary {
+  background: var(--indigo);
+  color: white;
+}
+
+.success {
+  background: var(--emerald);
+  color: white;
+}
+
+.danger {
+  background: var(--coral);
+  color: white;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 14px;
+  border-radius: 12px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
